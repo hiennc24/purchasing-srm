@@ -1,0 +1,68 @@
+.checklist-dropdown-menu {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.priority_option {
+    color: var(--background_color_main);
+    margin: 3px !important;
+}
+  
+.priority_option:hover {
+    opacity: 0.8;
+}
+
+.checklist-priority-option {
+    width: 31px;
+    height: 17px;
+    background-color: var(--background_color_main);
+    border: 0.5px solid rgba(39, 39, 39, 0.1);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.checklist-priority-option-content {
+    width: 13px;
+    height: 13px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todolist {
+    &__border-success {
+        border-top: 2px solid #2FCE00
+      }
+      &__border-pending {
+        border-top: 2px solid #FEA800
+      }
+        
+      &__border-doing {
+        border-top: 2px solid #C4C4C4
+      }
+        
+      &__color-success {
+        color:#2FCE00
+      }
+        
+      &__color-pending {
+        color:#FEA800
+      }
+        
+      &__color-doing {
+        color:#C4C4C4
+      }
+        
+    p {
+    font-size: 12px;
+      margin: 0px;
+      padding: 0px;
+      font-weight: 400;
+    }
+}
+  
+  

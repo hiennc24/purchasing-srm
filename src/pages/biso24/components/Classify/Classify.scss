@@ -1,0 +1,17 @@
+.classify {
+    margin: 10px 20px;
+    &__img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    .ant-row {
+        flex-flow: row wrap;
+        line-height: 25px;
+    }
+
+    .ant-collapse-content-box {
+        padding: 16px 16px 0 16px;
+    }
+}

@@ -1,0 +1,37 @@
+.field-link {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border-radius: 2px;
+  &__overlay {
+    &-background {
+      border: none;
+    }
+    &-text {
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      font-style: italic;
+    }
+  }
+  &__menu {
+    padding: 14px;
+    &-label {
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+    .ant-input {
+      margin-bottom: 14px;
+      width: 216px;
+      height: 32px;
+      padding: 0 14px;
+    }
+  }
+}

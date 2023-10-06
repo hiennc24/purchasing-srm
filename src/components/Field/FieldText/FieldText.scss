@@ -1,0 +1,54 @@
+@import 'assets/scss/variable.scss';
+
+.__field-text-container {
+  height: 100%;
+  // padding: 3px 3px;
+  .__field-text-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  &:hover {
+    input {
+      border: none;
+      background-color: rgba(245, 246, 248, 1);
+    }
+    cursor: pointer;
+  }
+
+  input {
+    &:focus {
+      outline: 0px solid transparent;
+      ~ .__field-text-icon {
+        display: none;
+      }
+    }
+  }
+  input {
+    outline: 0px solid transparent;
+    width: 100%;
+    border: none;
+    text-align: center;
+    height: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+  .__field-text-icon {
+    span {
+      color: $primary-color !important;
+    }
+    pointer-events: none;
+    color: #000;
+    position: absolute;
+    top: 6px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 32px;
+  }
+}
+
+.__field-text-container:hover {
+  background-color: rgba(245, 246, 248, 1);
+}

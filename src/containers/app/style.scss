@@ -1,0 +1,14 @@
+.container-app-layout {
+  height: calc(100vh - 40px);
+  .content-wrapper {
+    padding-top: 10px;
+    padding-left: 12px;
+    background: #e5e5e5;
+    .content-area {
+      background-color: #fff;
+      width: 100%;
+      height: calc(100vh - 60px);
+      overflow: auto;
+    }
+  }
+}

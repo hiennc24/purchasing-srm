@@ -1,0 +1,35 @@
+.stepWrapper {
+  background-color: white;
+  color: #272727;
+  font-size: 20px;
+  line-height: 23px;
+  width: 32px;
+  height: 32px;
+  border: 1.33333px solid rgba(39, 39, 39, 0.1);
+  border-radius: 50%;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  opacity: 60%;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: 27px;
+  }
+}
+
+.active {
+  background-color: #32a1c8 !important;
+  color: white !important;
+  opacity: 1;
+}
+
+.divided {
+  background: rgba(39, 39, 39, 0.1);
+  width: 28px;
+  height: 2.51px;
+  position: absolute;
+  right: -29px;
+}

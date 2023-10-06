@@ -1,0 +1,20 @@
+.todoList {
+    margin: 10px 0;
+    &__title {
+        margin: 10px 0;
+        padding: 10px 0px 0px 10px;
+        background: white;
+    }
+
+    &__content {
+        margin-left: 10px;
+    }
+
+    .ant-card-body {
+        padding: 0 !important;
+    }
+
+    .ant-list-item {
+        margin-bottom: 10px !important;
+    }
+}

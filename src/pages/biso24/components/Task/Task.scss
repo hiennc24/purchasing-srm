@@ -1,0 +1,39 @@
+.task {
+    background: #ffffff;
+    &__title {
+        background: #e6f7ff;
+        row-gap: 0px;
+        padding: 10px;
+        font-weight: bold;
+        &--icon {
+            padding-right: 10px !important;
+        }
+    }
+
+    &__component {
+        border-bottom: 1px solid gray;
+    }
+
+    &__content {
+        background: white;
+        padding: 5px 10px 0 10px;
+
+        .__field-select-show {
+            height: 0px;
+            padding: 0px;
+        }
+
+        .__select-container-custom {
+            width: 0 !important;
+            min-width: 0 !important;
+        }
+    }
+
+    .ant-card-body {
+        padding: 0;
+    }
+
+    .ant-list-item {
+        margin-bottom: 0 !important;
+    }
+}

@@ -1,0 +1,124 @@
+.createPlan {
+    .ant-modal-header {
+      padding: 22px 22px 18px 45px;
+      background-color: #ffffff;
+      border: none;
+    }
+
+    .ant-modal-body {
+      padding: 13px 13px 0px;
+      background: #e9f0f4;
+
+      .ant-form {
+        background: white;
+        padding: 16px 38px 21px 32px;
+      }
+    }
+
+    .ant-modal-footer {
+      padding: 0 13px;
+      border: none;
+      background-color: #e9f0f4;
+
+      .ant-row {
+        padding: 40px 38px 20px 32px;
+        background-color: white;
+      }
+    }
+
+    .text-bold{
+      font-weight: 700;
+    }
+
+    .ant-modal-content button.ant-modal-close {
+      display: block !important;
+    }
+
+    .ant-btn-primary.custom-btn{
+      background: #32A1C8;
+    }
+    .ant-btn-primary.custom-btn:hover{
+      background: #32A1C8;
+    }
+    .btn-add-staff{
+      width: 24px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1.48148px dashed #272727;
+      box-sizing: border-box;
+      top: -5px;
+      margin-right: 7px;
+      // margin-bottom: 12px;
+      img{
+        height: 10.000001px;
+        width: 12.222223px;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        border-radius: 0px;
+        position: absolute;
+      }
+    }
+    .group-staff-tag{
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 12px;
+      margin-right: 7px;
+      background: #F3F4F6;
+      padding: 4px 10px 4px 5px;
+      border-radius: 100px;
+      font-size: 12px;
+      img{
+        margin-right: 8px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+      }
+      .btn-delete-staff{
+        background: #F3F4F6;
+        border-radius: 50%;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        img{
+          height: 10px;
+          width: 10px;
+          left: 50%;
+          top: 50%;
+          transform: translateX(-50%) translateY(-50%);
+          border-radius: 0px;
+          position: absolute;
+        }
+      }
+    }
+}
+.popover-add-staff {
+  padding-top: 10px !important;
+  .ant-popover-title{
+    padding: 0;
+  }
+  .ant-popover-arrow{
+    display: none !important;
+  }
+  .group-staff{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    img{
+      margin-right: 8px;
+      border-radius: 50%;
+    }
+  }
+  .input-search-staff{
+    width: 200px;
+    border: none;
+    // border-bottom: 1px solid #E9E9E9;
+  }
+  .ant-popover-inner-content{
+    padding-top: 12px !important;
+    padding-bottom: 10px !important;
+    padding-left: 5px !important;
+  }
+}
